@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.header {
+    height: 100vh;
+    background: url(../img/BG.jpg);
+    background-size: cover;
+    background-position: right;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    
+}
+
+.top-bar {
+    display: flex;
+    padding-top: 3.5%;
+    padding-left: 6%;
+    justify-content: space-between;
+    padding-right: 6%;
+}
+
+.logo {
+    font-size: 40px;
+
+}
+
+.logo-icon {
+    height: 0.8em;
+}
+
+.menu {
+    display: flex;
+    list-style: none;   
+}
+
+.menu-item {
+    display: block;
+    white-space: pre;
+    font-size: 16px;
+    margin-right: 4vw;
+    
+}
+
+.menu-item a:hover {
+    border-bottom: 2px solid black;
+}
+
+.phone-number {
+    line-height: 40px;
+}
+
+.offer {
+    width: 40%;
+    font-size: 28px;
+    margin-left: 11%;
+    
+}
+
+
+.offer-content {
+    margin-top: 30%;
+}
+
+.offer-text {
+    margin-bottom: 15px;
+}
+
+.offer-btn {
+    display: block;
+    height: 60px;
+    width: 250px;
+    color: white;
+    background: #d96b8a;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 60px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 90px;
+    border: 3px solid #d96b8a;
+    box-sizing: border-box;
+}
+
+.offer-btn:hover {
+    background: none;
+    transition: 0.4s;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
