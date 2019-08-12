@@ -1,0 +1,217 @@
+* {margin: 0; padding: 0}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.wrapper {
+    height: 100vh;
+}
+
+.header {
+    font-family: 'Oswald', sans-serif;
+    background-color: #323232;
+    height: 80px;
+}
+
+.logo {
+    color: #F2F1F7;
+    font-size: 35px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+.logo > span {
+    color: #9C3138;
+}
+.header__content {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    
+}
+
+.menu__item {
+    margin-right: 50px;
+    font-weight: 300;
+    color: #F2F1F7;
+    line-height: 80px;
+    
+}
+
+.menu__item a:hover {
+    color: #9C3138;
+}
+
+.header_section {
+    background-image: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 46vh;
+}
+
+.banner {
+    background-color: rgba(0,0,0,0.5);
+    width: 70%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 20px;
+    margin: auto;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    padding: 20px 20px;
+}
+
+.banner h1 {
+    padding-bottom: 15px;
+    font-size: 35px;
+}
+
+.banner h2 {
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.banner h3 {
+    font-size: 15px;
+}
+
+.learn_more {
+    position: absolute;
+    left: 20%;
+    bottom: 18%;
+    padding: 10px 10px;
+/*    Gradient*/
+    background: -moz-linear-gradient(left, rgba(234,106,46,1) 24%, rgba(234,106,46,0.82) 38%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(234,106,46,1) 24%,rgba(234,106,46,0.82) 38%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(234,106,46,1) 24%,rgba(234,106,46,0.82) 38%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea6a2e', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
+
+}
+
+.articles {
+    display: flex;
+    justify-content: center;
+    margin: 40px 40px;
+    
+}
+
+.article {
+    background-color: #868684;
+    width: 30vw;
+    margin-right: 15px;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.articles:last-child {
+    margin-right: 0;
+}
+
+.img {
+    background-image: url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 28vw;
+    height: 28vw;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#second .img{
+    background-image: url(../img/3.jpg);
+}
+
+#third .img{
+    background-image: url(../img/1.jpg);
+}
+
+#second {
+    background-color: white;
+}
+
+.article-content {
+    width: 28vw;
+    margin: auto;
+    
+
+}
+
+.article-content h4 {
+    font-size: 20px;
+    line-height: 45px;
+}
+
+
+
+.article-content a {
+    display: block;
+    padding: 1.6%;
+    width: 17%;
+    position: absolute;
+    bottom: 15px;
+/*    Gradient    */
+    background: -moz-linear-gradient(left, rgba(165,44,33,1) 29%, rgba(165,44,33,0.86) 39%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(165,44,33,1) 29%,rgba(165,44,33,0.86) 39%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(165,44,33,1) 29%,rgba(165,44,33,0.86) 39%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a52c21', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
+
+}
+
+
+.footer {
+    background-color: #323232;
+    height: 60px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+.footer-logo {
+    font-family: 'Oswald', sans-serif;
+    line-height: 60px;
+    font-size: 33px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    
+    
+}
+
+.footer-logo > span {
+    color: #CA2437;
+}
+
+.footer-icons {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
